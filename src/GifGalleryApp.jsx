@@ -4,7 +4,7 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifGalleryApp = () => {
 
-    const [categories, setCategories] = useState(['Pokemon','Dragon Ball']);
+    const [categories, setCategories] = useState(['Pokemon']);
 
     const onAddCategory = (newCategory) => {
         // My first solution xddd
