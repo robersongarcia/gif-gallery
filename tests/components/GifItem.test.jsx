@@ -1,8 +1,9 @@
 import {render, screen, fireEvent} from "@testing-library/react";
 import { GifItem } from '../../src/components/GifItem';
 
-describe('Test of GifItem Component', () => { 
+describe('Pruebas del componente <GifItem/>', () => { 
     
+    //data
     const gifItemData =  {
         "id": "fSvqyvXn1M3btN8sDh",
         "title": "Detective Pikachu Reaction GIF",
