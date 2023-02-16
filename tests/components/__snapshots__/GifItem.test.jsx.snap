@@ -1,5 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Pruebas del componente <GifItem/> snapshot test 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Detective Pikachu Reaction GIF"
+      src="https://media2.giphy.com/media/fSvqyvXn1M3btN8sDh/giphy.gif?cid=7669ae4fg546m2iz6lssyqsqgznd2k5uv1ffgmw5ov8scbw5&rid=giphy.gif&ct=g"
+    />
+    <p>
+      Detective Pikachu Reaction GIF
+    </p>
+  </div>
+</div>
+`;
+
 exports[`Test of GifItem Component snapshot test 1`] = `
 <div>
   <div

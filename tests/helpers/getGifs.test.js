@@ -3,7 +3,7 @@ import { getGifs } from '../../src/helpers/getGifs';
 describe('getGifs Tests', () => { 
 
     test('debe retornar los gifs', async () => { 
-        const gifs = await getGifs('One Punch');
+        const gifs = await getGifs('Pokemon');
         // console.log(gifs);
 
         expect(gifs.length).toBeGreaterThan(0);
